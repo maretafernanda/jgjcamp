@@ -18,5 +18,5 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', 'CategoryController@index');
-Route::resource('category', 'CategoryController');
+// Route::resource('category', 'CategoryController');
 Route::get('/search', 'CategoryController@search')->name('search');
